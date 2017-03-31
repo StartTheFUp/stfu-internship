@@ -2809,6 +2809,11 @@
 				z-index: 4;
 			}
 
+			.tiles article#stfu:before {
+				background-color: black;
+				/*opacity: 0.70;*/
+			}
+
 			.tiles article:before {
 				-moz-transition: opacity 0.5s ease;
 				-webkit-transition: opacity 0.5s ease;
@@ -2841,6 +2846,10 @@
 				opacity: 0;
 			}
 
+			.tiles#one article:hover:before {
+				opacity: 0.9;
+			}
+
 			.tiles article.is-transitioning {
 				-moz-transform: scale(0.95);
 				-webkit-transform: scale(0.95);
@@ -2852,6 +2861,14 @@
 				filter: blur(0.5em);
 				opacity: 0;
 			}
+
+
+
+			.tiles article#stfu, .tiles article#barbier  {
+				width: 50%;
+			}
+
+
 
 			.tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2) {
 				width: 60%;
@@ -3407,7 +3424,7 @@
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/screen.png");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3432,20 +3449,21 @@
 			-webkit-transition: opacity 2.5s ease;
 			-ms-transition: opacity 2.5s ease;
 			transition: opacity 2.5s ease;
-			-moz-transition-delay: 0.75s;
-			-webkit-transition-delay: 0.75s;
-			-ms-transition-delay: 0.75s;
-			transition-delay: 0.75s;
+			-moz-transition-delay: 1.5s;
+			-webkit-transition-delay: 1.5s;
+			-ms-transition-delay: 1.5s;
+			transition-delay: 1.5s;
 			-moz-pointer-events: none;
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
 			pointer-events: none;
 			background-color: #242943;
+			/*background-color: black;*/
 			content: '';
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.85;
+			opacity: 0.9;
 			position: absolute;
 			top: 0;
 			width: 100%;
@@ -4173,4 +4191,13 @@
   animation: glow 2s ease-out 0;
   animation-iteration-count: infinite;
   animation-fill-mode: both;
+}
+
+.logo-image-container {
+	display: inline-block;
+	height: 50px;
+}
+
+.logo-image-container img {
+	height: 100%;
 }
