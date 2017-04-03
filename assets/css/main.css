@@ -3455,7 +3455,7 @@
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/screen.png");
+		background-image: url("../../images/screen.jpg");
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3476,7 +3476,7 @@
 	}
 
 		#banner:after {
-			/*-moz-transition: opacity 2.5s ease;
+/*			-moz-transition: opacity 2.5s ease;
 			-webkit-transition: opacity 2.5s ease;
 			-ms-transition: opacity 2.5s ease;
 			transition: opacity 2.5s ease;
