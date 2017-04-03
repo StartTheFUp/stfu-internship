@@ -346,6 +346,10 @@
 							$menu._hide();
 
 				});
+		$('#share-button').click(function(e) {
+			e.preventDefault();
+			e.target.parentElement.innerHTML = 'Copie colle le lien suivant : <a href= "http://stage.startthefup.co">http://stage.startthefup.co</a> Merci bcp !';
+		});
 
 	});
 
