@@ -348,7 +348,7 @@
 				});
 		$('#share-button').click(function(e) {
 			e.preventDefault();
-			e.target.parentElement.innerHTML = 'Copie colle le lien suivant : <a href= "http://stage.startthefup.co">http://stage.startthefup.co</a> Merci bcp !';
+			e.target.parentElement.innerHTML = 'Copie colle le lien suivant sur ton internet préféré : <a href= "http://stage-de-ouf.startthefup.co">http://stage-de-ouf.startthefup.co</a> Merci bcp !';
 		});
 
 	});
