@@ -1826,6 +1826,16 @@
 		text-align: center;
 	}
 
+	section.text {
+		padding-left: 20%;
+	}
+
+	@media screen and (max-width: 736px) {
+		section.text {
+			padding-left: 4%;
+		}
+	}
+
 	header.major {
 		width: -moz-max-content;
 		width: -webkit-max-content;
