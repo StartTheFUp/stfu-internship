@@ -24,11 +24,16 @@ http://stage-de-ouf.startthefup.co/
 
 [Startup as a service][Future of e-commerce][Stage web dév]
 
-Hello tout le monde, réponses au template plus bas.
+Hello tout le monde.
 
-Start the F*** Up !, notre collectif de "Startup as-a-service" (http://startthefup.co/) et Monsieur Barbier notre startup d'abonnement cosmétique et rasage recrutent un stagiaire en dév qui aurait des vélléités d'entrepreneur.
+Start the F*** Up !, notre collectif de "Startup as-a-service" (http://startthefup.co/) et Monsieur Barbier, notre startup d'abonnement cosmétique et rasage recrutent un stagiaire en dév qui aurait des vélléités d'entrepreneur.
 
 Je vous laisse consulter l'ambiance et l'offre ci-dessous, on a essayé de faire un truc plus original avec un site custom... après tout on recrute un dév :)
+
+**Mission**
+50% dév fullstack sur monsieurbarbier.com (archi, features, analytics, growth...) 
+30% formation et participation à offre et collectif STFU - lancement startup, conception produit, gestion de clients.
+20% dév et projets autres (les tiens, du free...)
 
 **Technos **
 Monsieurbarbier.com : Slim (Microframework PHP) + librairies single-purpose. MySQL.
@@ -41,10 +46,6 @@ Stage, idéalement 4-6 mois, 800E/mois + rémunération supp suivants projets de
 Paris intramuros.
 Date de début flexible. ASAP quoi.
 
-**Mission**
-50% dév fullstack sur monsieurbarbier.com (archi, features, analytics, growth...) 
-30% formation et participation à offre et collectif STFU - lancement startup, conception produit, gestion de clients.
-20% dév et projets autres (les tiens, du free...)
 
 Merci de votre aide ! Peace.
 http://stage-de-ouf.startthefup.co/
